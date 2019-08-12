@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Arapey");
+    body {
+      margin: 0;
+      font-family: "Arapey";
+    }
+    body h1 {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 20%;
+    }
+
+    section {
+      padding: 3em;
+      height: 100vh;
+      position: relative;
+      box-sizing: border-box;
+    }
+    section blockquote {
+      font-size: 2.3em;
+      width: 30%;
+      margin-top: 50%;
+      position: absolute;
+    }
+    section blockquote span {
+      width: 100%;
+      background: red;
+      display: block;
+      height: 5px;
+      margin-top: 20px;
+    }
+    section img {
+      position: absolute;
+    }
+
+    .sticky {
+      margin: 6%;
+    }
+    #cover {
+      width: 100%;
+      max-width: 1000px;
+      left: 20%;
+      top: 5%;
+    }
+    #office {
+      width: 40%;
+      right: 0;
+      top: 20%;
+    }
+    #building3 {
+      width: 30%;
+      right: 60%;
+      margin-top: 30px;
+      top: 30%;
+    }
+    #building4 {
+      width: 40%;
+      right: 30%;
+      top: 350px;
+    }
+
+    #last {
+      color: white;
+    }
+    p {
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <section style="background: #000">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="700"
+        data-aos-easing="ease-in-sine"
+      >
+        <img id="cover" src="k.png" />
+      </div>
+    </section>
+
+    <section class="sticky">
+      <div data-aos="zoom-out-down" data-aos-offset="600">
+        <blockquote>"Happy Birthday"<span></span></blockquote>
+      </div>
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <img id="office" src="k1.png" />
+      </div>
+      <div data-aos="zoom-out-right" data-aos-offset="300">
+        <img id="building3" src="k4.png" />
+      </div>
+      <div data-aos="zoom-out-down" data-aos-offset="500">
+        <img id="building4" src="k5.png" />
+      </div>
+    </section>
+
+    <section id="last" style="background: #000">
+      <h1>Kimberley Ng</h1>
+      <p>
+        Dear Kimberleyley,<br />
+        Um, well happy birthday. you know you are a smart person who is super
+        good at chemistry. If you have any free time you should def teach me
+        some of your chem magic. JKJK. I've only known u for around 2-3 years
+        not that long. But I can see you are very into american tv shows. I
+        don't know what to say to you, sometimes I'm quite jealous of you cause
+        you could go to europe or you get to make up excuses to skip pe class. I
+        mean bro legit, u r a god damn cool person, we should talk more and you
+        should tell me more about computer forensics, it sounds very cool.<br />Good
+        luck mate with your GCSEs.<br /><br /><b>Best Regards, MELANIE HSIEH</b>
+      </p>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
