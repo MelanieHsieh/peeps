@@ -1,3 +1,3 @@
-# peeps
-friends from high school yeet
-To the people who are my friends
+# Cheap birthday presents
+
+A simple website for my friends from high school...
